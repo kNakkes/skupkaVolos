@@ -1,0 +1,146 @@
+body{
+    margin: auto;
+    width: 940px;
+    background: #FFFFFF;
+}
+
+.firstContainer{
+    margin: auto;
+}
+
+.navbar{
+    align-items: center;
+    height: 88px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #828282;
+    width: 940px;
+}
+
+.navbar a{
+    font-family: 'Gilroy-Bold';
+    font-size: 28px;
+    font-weight: bold;
+    color: #828282;
+    text-decoration: none;
+}
+
+.photo{
+    height: 421.39px;
+}
+
+.photo img{
+    width: 940px;
+    
+}
+
+.information{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.name{
+    font-family: 'Gilroy-Bold';
+    font-size: 27px;
+    color: #070707;
+    width: 195px;
+    word-wrap:break-word;
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+}
+
+.rightCloumn{
+    display: flex;
+    transform: rotate(270deg);
+    justify-content: center;
+    width: 155px;
+    align-items: end;
+}
+
+.secondContainer{
+    background: #F6F6F6;
+    height: 506px;
+}
+
+.about{
+    font-size: 20px;
+    text-align: center;
+    color: #070707;
+}
+
+.about h1{
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.advantages{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0);
+}
+
+.image img{
+    width: 100px;
+}
+
+.advantage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thirdContainer{
+    margin: auto;
+    background: #FFFFFF;
+}
+
+.buyOrNot{
+    height: 300px;
+    gap: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact{
+    height: 500px;
+    background: #F6F6F6;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.adress{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+}
+
+.map{
+    display: flex;
+    align-items: center;
+}
+
+.whatsup img{
+    width: 65px;
+    position: fixed;
+    right: 400px;
+    bottom: 30px;
+}
